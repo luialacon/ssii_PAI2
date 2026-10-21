@@ -1,0 +1,25 @@
+[BENCH] run 1/3 modo=plain ...
+[BENCH] run 1/3 modo=tls ...
+[BENCH] run 2/3 modo=plain ...
+[BENCH] run 2/3 modo=tls ...
+[BENCH] run 3/3 modo=plain ...
+[BENCH] run 3/3 modo=tls ...
+
+======================================================================
+ BENCHMARK 300 SESIONES SIMULTÁNEAS  (sesiones abiertas a la vez: TLS=300, plano=300)
+======================================================================
+ métrica                                  PLANO   TLS1.3+mTLS  overhead
+ OK / fallidas                            300/0         300/0          
+ Handshake sin carga p50 (ms)               0.7          15.5    +2133%
+ Conexión con 300 a la vez p50 (ms)       223.0        2922.7    +1211%
+ RTT 256 B p50 (ms)                       54.84         62.24      +13%
+ RTT 256 B p95 (ms)                       77.53        105.53          
+ RTT 256 B p99 (ms)                      107.74        187.90          
+ Throughput (MB/s)                         50.6          41.0      -19%
+ Mensajes/s                                2431          1968          
+ CPU del servidor en conectar 300 (s)       102.6         107.5       +5%
+ CPU del servidor por MB (ms/MB)             20            23      +12%
+ CPU media (% de un núcleo, orientativa)         100           115      +15%
+ RAM servidor pico (MB)                      47            62      +31%
+ Protocolo negociado: TLSv1.3 / TLS_AES_256_GCM_SHA384
+======================================================================
