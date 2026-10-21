@@ -1,0 +1,26 @@
+# Entorno / caché de Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# PKI generada (las claves privadas NUNCA se suben; se regeneran con `python main.py` -> opción 1)
+certs/
+
+# Base de datos y estado local
+data/*.db
+data/*.db-*
+
+# Logs y capturas se regeneran; solo se versionan los de /evidences/ocasionales
+evidences/logs/*.log
+evidences/logs/*.jsonl
+*.pcapng
+!evidences/pcap/*.pcapng
+
+# Material de IDE / herramientas
+.claude/
+.codebase-memory/
+
+# Artefactos de entrega y logs pesados que se regeneran
+PAI2-*.zip
+evidences/bench/audit_*.jsonl
