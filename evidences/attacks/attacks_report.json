@@ -1,0 +1,101 @@
+[
+  {
+    "n": 1,
+    "name": "Cliente sin certificado",
+    "description": "Un dispositivo no registrado intenta conectar.",
+    "defense": "mTLS obligatorio (CERT_REQUIRED)",
+    "blocked": true,
+    "observed": "SSLError: [SSL: TLSV13_ALERT_CERTIFICATE_REQUIRED] tlsv13 alert certificate required (_ssl.c:2578)",
+    "evidence": "1 evento(s) HANDSHAKE_FAILED"
+  },
+  {
+    "n": 2,
+    "name": "Suplantación con certificado de CA falsa",
+    "description": "El atacante crea su propia CA (con el mismo nombre) y se firma un carnet como 'pdi_user5'.",
+    "defense": "El servidor valida la cadena contra NUESTRA CA, no por el nombre",
+    "blocked": true,
+    "observed": "respuesta del servidor: b''",
+    "evidence": "1 HANDSHAKE_FAILED nuevo(s)"
+  },
+  {
+    "n": 3,
+    "name": "Ataque de degradación a TLS 1.2",
+    "description": "Un cliente (o un atacante) fuerza una versión antigua.",
+    "defense": "min = max = TLS 1.3 en el servidor",
+    "blocked": true,
+    "observed": "SSLError: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1007)",
+    "evidence": "1 HANDSHAKE_FAILED nuevo(s)"
+  },
+  {
+    "n": 4,
+    "name": "Certificado robado, sin contraseña",
+    "description": "Roban el archivo del carnet de 'pdi_user5' (capa 1 superada) pero no saben la contraseña.",
+    "defense": "Doble capa: además del carnet se exige la contraseña (Argon2id)",
+    "blocked": true,
+    "observed": "respuesta: AUTH_FAILED / Credenciales inválidas",
+    "evidence": "1 LOGIN_FAILED"
+  },
+  {
+    "n": 5,
+    "name": "Usar un carnet para entrar como otro usuario",
+    "description": "Con el carnet de 'pdi_user5' e intentando identificarse como 'inv_user5' (incluso sabiendo su contraseña).",
+    "defense": "El usuario debe coincidir con el CN del certificado",
+    "blocked": true,
+    "observed": "respuesta: AUTH_FAILED",
+    "evidence": "1 UNAUTHORIZED (cn_mismatch)"
+  },
+  {
+    "n": 6,
+    "name": "Fuerza bruta de contraseñas",
+    "description": "5 intentos fallidos seguidos.",
+    "defense": "Bloqueo temporal de la cuenta",
+    "blocked": true,
+    "observed": "respuesta: LOCKED",
+    "evidence": "1 ACCOUNT_LOCKED"
+  },
+  {
+    "n": 7,
+    "name": "Servidor falso (suplantación del gateway)",
+    "description": "El atacante monta un servidor con el nombre gateway.usecure.es y certificado de su CA falsa.",
+    "defense": "El cliente solo confía en la CA de U-Secure y valida el nombre (autenticación del servidor)",
+    "blocked": true,
+    "observed": "SSLCertVerificationError: unable to get local issuer certificate",
+    "evidence": "el cliente corta antes de enviar credenciales"
+  },
+  {
+    "n": 8,
+    "name": "Interceptación (sniffing) en un retransmisor MITM",
+    "description": "Un atacante en medio reenvía el tráfico y lo lee.",
+    "defense": "Cifrado AEAD con TLS 1.3",
+    "blocked": true,
+    "observed": "el atacante capturó 3775 bytes; contienen el secreto o la contraseña: NO",
+    "evidence": "ver evidences/pcap/analysis.txt para la comparación con tráfico plano"
+  },
+  {
+    "n": 9,
+    "name": "Manipulación de un bit en tránsito",
+    "description": "El atacante cambia UN solo bit de un mensaje cifrado.",
+    "defense": "Integridad AEAD (AES-GCM / ChaCha20-Poly1305): el registro alterado no se acepta",
+    "blocked": true,
+    "observed": "SSLError: [SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2578)",
+    "evidence": "la sesión se corta con bad_record_mac; ningún dato manipulado llega a la aplicación"
+  },
+  {
+    "n": 10,
+    "name": "Repetición (replay) de una sesión grabada",
+    "description": "El atacante graba la sesión legítima y reenvía exactamente los mismos bytes en una conexión nueva.",
+    "defense": "Claves efímeras (ECDHE) y aleatorios distintos por sesión: lo grabado no vale en otra sesión",
+    "blocked": true,
+    "observed": "el servidor respondió con un ServerHello nuevo y falló al descifrar lo reenviado: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:100",
+    "evidence": "1 HANDSHAKE_FAILED nuevo(s), 0 sesiones abiertas"
+  },
+  {
+    "n": 11,
+    "name": "Uso de un certificado revocado",
+    "description": "Se revoca el carnet de pas_user5 (robo/pérdida) y se intenta usar.",
+    "defense": "Comprobación de la CRL en el handshake",
+    "blocked": true,
+    "observed": "respuesta del servidor: b''",
+    "evidence": "1 HANDSHAKE_FAILED nuevo(s)"
+  }
+]

@@ -1,0 +1,102 @@
+ANÁLISIS AUTOMÁTICO DE CAPTURAS (tshark)
+============================================================
+
+[1] tls13_mtls_session.pcapng
+  Paquetes capturados: 33
+  ¿Aparece el mensaje secreto en claro?      NO  -> confidencialidad OK
+  ¿Aparece la contraseña en claro?           NO  -> confidencialidad OK
+  Handshake TLS (tipo de mensaje 1=ClientHello 2=ServerHello 11=Certificate 15=CertVerify):
+4	50987	1	0x0303	0x1302,0x1303,0x1301,0x00ff	0x0304
+6	18443	2	0x0303	0x1302	0x0304
+  Versión en la capa de registro TLS (0x0303 es el valor 'de compatibilidad' que usa TLS 1.3):
+  Versiones TLS realmente negociadas (extensión supported_versions; 0x0304 = TLS 1.3):
+   0x0304
+  Suite negociada (0x1302 = TLS_AES_256_GCM_SHA384, 0x1303 = TLS_CHACHA20_POLY1305_SHA256):
+   0x1302
+  Registros 'Application Data' (carga cifrada, ininteligible):
+   trama  puerto_origen  bytes_cifrados
+6      18443      122,1,23,62,1200,128,69
+8      50987      1,1129,96,69
+10      50987      90
+12      18443      99
+14      50987      77
+16      18443      91
+18      50987      57
+20      18443      77
+22      50987      37
+24      18443      95
+26      50987      19
+28      18443      19
+  Certificados: en TLS 1.3 viajan CIFRADOS tras el ServerHello (no se ven en claro).
+
+  Con las claves de sesión (tls13_session.keylog) Wireshark SÍ puede descifrar; sin ellas, no. Contenido recuperado (solo demostración):
+   ===================================================================
+   Follow: tls,ascii
+   Filter: tls.stream eq 0
+   Node 0: 127.0.0.1:18443
+   Node 1: 127.0.0.1:50987
+   	73
+   ...E{"op": "LOGIN", "username": "pdi_user1", "password": "********"}
+   82
+   ...N{"status": "OK", "role": "PDI", "msg": "Bienvenido al gateway U-Secure [PDI]"}
+   	60
+   ...8{"op": "MSG", "data": "INFORME-CONFIDENCIAL-NOTAS-2026"}
+   74
+   ...F{"status": "OK", "echo": "INFORME-CONFIDENCIAL-NOTAS-2026", "len": 31}
+   	40
+   ...${"op": "RESOURCE", "name": "correo"}
+   60
+   ...8{"status": "OK", "resource": "correo", "ts": 1792591884}
+   	20
+   ....{"op": "LOGOUT"}
+   78
+   ...J{"status": "BYE", "msg": "Sesi..n cerrada; claves de sesi..n descartadas"}
+   ===================================================================
+
+[2] plain_session.pcapng  (sesión idéntica SIN cifrar, solo para comparar)
+  ¿Aparece el mensaje secreto en claro?      SÍ -> cualquiera en la red lo lee
+  ¿Aparece la contraseña en claro?           SÍ -> credenciales robadas
+  Flujo TCP reconstruido (lo que vería un atacante):
+===================================================================
+Follow: tcp,ascii
+Filter: tcp.stream eq 0
+Node 0: 127.0.0.1:50988
+Node 1: 127.0.0.1:18080
+73
+...E{"op": "LOGIN", "username": "pdi_user1", "password": "U-Secure#2026"}
+	82
+...N{"status": "OK", "role": "PDI", "msg": "Bienvenido al gateway U-Secure [PDI]"}
+60
+...8{"op": "MSG", "data": "INFORME-CONFIDENCIAL-NOTAS-2026"}
+	74
+...F{"status": "OK", "echo": "INFORME-CONFIDENCIAL-NOTAS-2026", "len": 31}
+20
+....{"op": "LOGOUT"}
+	78
+...J{"status": "BYE", "msg": "Sesi..n cerrada; claves de sesi..n descartadas"}
+===================================================================
+
+[3] tls12_rejected.pcapng  (cliente que solo habla TLS 1.2)
+  Mensajes de handshake y alertas (tls.alert_message.desc 70 = protocol_version):
+4	50989	1	
+6	18443		70
+  Registros Application Data: 0 (0 = no hubo sesión)
+
+[4] no_client_cert.pcapng  (cliente sin certificado)
+  Nota: en TLS 1.3 el servidor pide el certificado DENTRO del handshake cifrado y su alerta
+  (certificate_required) también va cifrada, por eso no se ve el motivo en el pcap; la causa
+  queda registrada en el log de auditoría del servidor (evento HANDSHAKE_FAILED).
+  Tramas (trama, puerto origen, flags TCP; 0x0011 = FIN+ACK, 0x0004 = RST, 0x0010 = ACK):
+1	50998	0x0002
+2	18443	0x0012
+3	50998	0x0010
+4	50998	0x0018
+5	18443	0x0010
+6	18443	0x0018
+7	50998	0x0010
+8	50998	0x0018
+9	18443	0x0010
+10	18443	0x0018
+11	50998	0x0010
+12	18443	0x0014
+  Registros Application Data: 3 (solo los de cierre del handshake; ningún dato de aplicación llega a intercambiarse)
