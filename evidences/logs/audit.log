@@ -1,0 +1,905 @@
+2026-10-08 11:03:05,222 [INFO] Gateway VPN arrancado en 127.0.0.1:8443
+2026-10-08 11:03:26,355 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 53219) | CN Certificado: pdi_user1
+2026-10-08 11:03:26,355 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:03:26,356 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,222 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63610) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,222 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,223 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,227 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63611) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,229 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,230 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,231 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63612) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,232 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,232 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,236 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63613) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,236 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,237 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,241 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63614) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,241 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,241 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,245 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63615) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,245 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,246 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,250 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63616) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,250 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,251 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,254 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63617) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,255 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,255 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,259 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63618) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,259 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,259 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,263 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63619) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,264 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,264 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,268 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63620) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,268 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,268 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,273 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63621) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,273 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,274 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,277 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63622) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,278 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,278 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,283 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63623) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,283 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,284 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,287 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63624) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,288 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,288 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,292 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63625) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,292 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,292 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,297 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63626) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,297 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,297 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,301 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63627) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,301 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,302 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,305 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63628) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,306 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,306 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,310 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63629) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,310 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,311 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,315 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63630) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,316 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,316 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,320 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63631) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,320 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,320 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,325 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63632) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,325 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,325 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,330 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63633) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,330 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,330 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,334 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63634) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,335 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,335 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,339 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63635) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,339 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,340 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,343 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63636) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,344 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,344 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,348 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63637) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,348 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,348 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,352 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63638) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,353 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,353 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,357 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63639) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,357 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,357 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,361 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63640) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,362 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,362 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,366 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63641) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,366 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,367 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,371 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63642) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,371 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,372 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,376 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63643) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,376 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,377 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,380 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63644) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,380 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,381 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,385 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63645) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,385 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,385 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,389 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63646) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,389 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,390 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,394 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63647) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,394 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,395 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,398 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63648) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,398 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,399 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,403 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63649) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,403 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,403 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,408 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63650) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,408 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,408 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,412 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63651) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,412 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,413 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,417 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63652) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,417 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,417 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,421 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63653) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,422 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,422 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,426 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63654) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,427 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,427 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,431 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63655) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,431 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,432 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,435 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63656) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,436 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,436 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,440 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63657) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,441 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,441 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,445 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63658) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,445 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,446 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,449 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63659) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,450 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,450 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,454 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63660) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,454 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,455 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,460 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63661) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,460 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,460 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,464 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63662) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,464 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,465 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,469 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63663) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,469 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,469 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,474 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63664) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,474 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,474 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,478 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63665) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,478 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,479 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,483 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63666) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,483 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,483 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,488 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63667) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,488 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,489 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,492 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63668) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,493 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,493 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,497 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63669) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,497 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,498 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,501 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63670) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,502 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,502 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,506 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63671) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,506 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,507 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,511 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63672) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,511 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,511 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,515 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63673) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,516 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,516 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,521 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63674) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,521 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,521 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,525 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63675) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,525 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,526 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,530 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63676) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,530 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,530 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,534 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63677) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,535 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,535 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,539 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63678) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,539 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,540 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,544 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63679) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,544 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,544 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,548 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63680) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,548 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,549 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,553 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63681) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,553 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,554 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,558 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63682) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,558 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,558 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,562 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63683) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,563 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,563 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,567 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63684) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,567 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,568 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,571 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63685) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,572 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,572 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,576 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63686) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,576 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,577 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,580 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63687) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,581 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,581 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,585 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63688) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,585 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,586 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,590 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63689) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,590 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,590 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,594 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63690) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,594 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,595 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,599 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63691) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,600 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,600 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,604 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63692) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,604 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,605 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,608 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63693) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,609 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,609 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,613 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63694) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,613 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,614 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,618 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63695) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,618 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,618 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,623 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63696) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,623 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,623 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,627 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63697) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,627 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,628 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,632 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63698) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,632 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,632 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,636 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63699) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,637 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,637 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,641 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63700) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,641 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,641 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,645 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63701) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,646 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,646 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,650 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63702) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,650 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,651 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,655 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63703) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,655 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,655 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,659 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63704) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,659 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,660 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,677 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63705) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,689 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,692 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,694 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63706) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,694 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,694 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,698 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63707) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,698 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,699 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,702 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63708) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,703 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,703 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,707 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63709) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,707 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,708 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,711 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63710) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,712 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,712 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,716 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63711) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,716 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,716 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,720 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63712) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,720 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,721 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,724 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63713) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,725 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,725 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,729 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63714) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,730 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,730 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,734 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63715) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,734 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,734 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,738 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63716) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,738 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,739 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,743 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63717) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,743 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,744 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,747 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63718) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,747 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,748 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,752 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63719) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,752 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,753 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,756 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63720) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,757 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,757 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,761 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63721) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,761 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,761 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,765 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63722) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,765 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,766 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,770 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63723) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,770 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,770 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,775 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63724) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,775 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,776 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,779 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63725) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,780 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,780 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,784 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63726) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,784 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,785 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,789 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63727) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,789 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,789 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,793 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63728) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,793 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,794 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,798 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63729) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,798 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,799 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,802 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63730) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,803 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,803 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,808 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63731) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,808 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,809 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,812 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63732) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,813 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,813 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,817 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63733) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,817 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,817 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,822 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63734) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,822 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,822 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,826 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63735) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,826 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,827 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,831 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63736) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,831 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,831 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,836 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63737) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,836 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,837 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,841 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63738) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,841 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,842 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,846 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63739) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,846 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,846 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,850 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63740) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,850 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,851 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,855 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63741) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,855 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,856 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,860 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63742) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,860 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,860 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,864 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63743) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,865 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,865 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,870 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63744) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,870 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,870 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,874 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63745) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,874 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,875 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,879 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63746) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,879 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,879 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,883 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63747) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,884 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,884 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,888 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63748) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,888 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,888 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,892 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63749) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,893 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,893 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,897 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63750) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,897 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,897 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,901 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63751) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,902 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,902 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,906 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63752) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,906 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,906 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,910 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63753) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,910 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,911 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,915 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63754) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,915 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,915 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,921 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63755) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,921 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,922 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,925 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63756) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,926 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,926 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,930 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63757) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,930 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,931 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,935 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63758) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,935 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,935 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,939 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63759) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,939 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,940 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,944 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63760) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,944 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,944 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,949 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63761) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,949 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,950 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,953 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63762) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,953 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,954 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,958 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63763) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,958 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,958 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,963 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63764) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,963 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,964 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,967 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63765) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,967 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,968 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,972 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63766) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,972 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,972 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,976 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63767) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,977 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,977 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,981 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63768) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,982 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,982 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,986 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63769) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,986 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,987 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,991 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63770) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,991 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,992 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:26,996 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63771) | CN Certificado: pdi_user1
+2026-10-08 11:04:26,997 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:26,997 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,001 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63772) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,001 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,002 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,005 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63773) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,006 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,006 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,010 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63774) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,011 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,011 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,015 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63775) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,015 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,015 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,019 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63776) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,019 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,020 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,024 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63777) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,024 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,024 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,028 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63778) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,029 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,029 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,033 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63779) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,033 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,034 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,037 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63780) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,038 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,038 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,042 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63781) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,042 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,043 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,047 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63782) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,047 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,047 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,051 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63783) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,052 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,052 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,056 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63784) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,056 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,056 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,061 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63785) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,061 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,062 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,066 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63786) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,066 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,067 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,070 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63787) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,071 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,071 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,075 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63788) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,076 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,076 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,080 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63789) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,080 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,080 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,085 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63790) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,085 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,085 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,090 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63791) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,090 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,090 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,094 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63792) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,095 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,095 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,099 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63793) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,099 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,100 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,103 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63794) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,103 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,104 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,108 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63795) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,108 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,109 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,113 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63796) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,113 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,113 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,117 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63797) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,117 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,118 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,122 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63798) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,122 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,123 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,127 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63799) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,127 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,128 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,131 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63800) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,132 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,132 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,137 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63801) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,137 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,137 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,142 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63802) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,142 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,142 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,146 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63803) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,146 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,147 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,152 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63804) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,152 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,153 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,156 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63805) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,157 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,157 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,161 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63806) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,161 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,162 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,165 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63807) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,166 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,166 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,171 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63808) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,171 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,171 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,175 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63809) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,175 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,176 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,180 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63810) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,180 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,180 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,184 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63816) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,184 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,185 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,189 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63832) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,189 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,190 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,193 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63812) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,193 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,194 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,198 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63817) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,198 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,198 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,202 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63824) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,203 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,203 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,207 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63825) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,207 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,208 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,212 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63833) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,212 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,212 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,216 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63811) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,217 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,217 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,221 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63818) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,221 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,221 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,225 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63827) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,225 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,226 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,230 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63835) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,230 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,230 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,235 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63826) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,235 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,236 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,239 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63815) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,239 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,240 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,244 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63834) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,244 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,244 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,249 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63813) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,249 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,249 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,253 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63819) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,253 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,254 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,258 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63820) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,258 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,258 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,263 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63829) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,263 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,263 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,267 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63828) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,267 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,268 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,272 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63814) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,272 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,272 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,276 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63856) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,276 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,277 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,281 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63837) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,282 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,282 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,286 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63836) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,286 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,287 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,291 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63821) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,291 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,292 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,296 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63823) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,296 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,297 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,301 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63830) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,301 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,302 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,306 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63831) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,306 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,306 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,310 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63857) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,310 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,311 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,315 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63839) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,315 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,315 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,319 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63838) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,319 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,320 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,324 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63859) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,324 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,325 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,329 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63822) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,329 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,329 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,333 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63840) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,334 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,334 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,338 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63848) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,338 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,339 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,342 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63858) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,343 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,343 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,347 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63849) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,347 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,348 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,352 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63865) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,352 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,352 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,356 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63861) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,357 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,357 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,361 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63860) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,361 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,362 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,365 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63851) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,365 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,366 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,370 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63843) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,370 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,371 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,374 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63866) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,375 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,375 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,379 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63850) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,379 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,380 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,383 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63841) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,384 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,384 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,388 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63864) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,389 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,389 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,393 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63862) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,393 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,394 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,398 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63853) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,398 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,399 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,403 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63868) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,403 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,404 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,408 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63845) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,408 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,409 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,412 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63852) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,412 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,413 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,417 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63863) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,417 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,417 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,421 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63872) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,422 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,422 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,426 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63854) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,426 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,426 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,430 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63871) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,430 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,431 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,435 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63846) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,436 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,436 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,441 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63873) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,441 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,441 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,445 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63855) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,445 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,446 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,450 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63875) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,450 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,450 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,454 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63867) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,455 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,455 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,459 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63842) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,459 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,460 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,463 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63896) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,464 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,464 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,468 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63881) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,469 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,469 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,473 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63888) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,473 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,473 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,478 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63874) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,478 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,478 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,482 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63897) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,482 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,483 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,487 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63877) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,487 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,488 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,492 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63882) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,492 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,492 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,496 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63899) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,496 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,497 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,501 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63891) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,501 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,502 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,506 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63898) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,506 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,506 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,510 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63876) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,510 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,511 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,515 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63878) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,515 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,516 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,520 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63884) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,520 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,521 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,524 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63869) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,525 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,525 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,529 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63844) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,529 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,530 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,534 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63893) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,534 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,534 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,538 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63901) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,538 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,539 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,543 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63900) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,543 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,543 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,547 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63879) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,547 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,548 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,553 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63887) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,553 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,553 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,557 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63894) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,558 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,558 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,562 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63902) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,563 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,563 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,567 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63903) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,567 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,568 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,571 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63905) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,572 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,572 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,576 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63870) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,576 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,577 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,580 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63847) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,581 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,581 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,585 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63906) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,586 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,586 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,590 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63908) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,591 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,591 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,595 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63889) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,596 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,596 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,600 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63880) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,600 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,600 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,604 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63890) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,604 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,605 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,609 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63883) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,609 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,609 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,614 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63892) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,614 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,614 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,618 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63885) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,619 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,619 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,623 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63886) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,623 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,624 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,628 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63895) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,628 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,629 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,632 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63904) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,633 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,633 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,637 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63907) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,637 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,638 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:04:27,642 [INFO] Conexión mTLS establecida desde ('127.0.0.1', 63909) | CN Certificado: pdi_user1
+2026-10-08 11:04:27,642 [INFO] Autenticación exitosa usuario: pdi_user1 (PDI)
+2026-10-08 11:04:27,642 [INFO] Cierre seguro de sesión (RF4) solicitado por: pdi_user1
+2026-10-08 11:52:21,282 [INFO] Gateway VPN arrancado en 127.0.0.1:8443
