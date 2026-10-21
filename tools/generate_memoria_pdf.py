@@ -37,7 +37,7 @@ OUT = ROOT / "docs" / "Memoria_PAI2_ST2.pdf"
 MAX_PAGES = 15
 
 GRUPO = "ST-2"
-INTEGRANTES = ["Raimundo García Pérez", "Konstantinos Peridis", "Luis Alarcón Conradi"]
+INTEGRANTES = ["Raimundo García Pérez", "Konstantinos Peridis", "Luis De Alarcón Conradi"]
 REPO = "github.com/luialacon/ssii_PAI2 (rama raimundo_dev)"
 
 # ----------------------------------------------------------------------------- fuentes
