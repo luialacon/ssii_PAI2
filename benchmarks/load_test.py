@@ -189,6 +189,7 @@ async def run_once(mode: str, n_sessions: int, port: int) -> dict:
         while len(ready) < n_sessions and not all(t.done() for t in tasks):
             await asyncio.sleep(0.05)
         t_all_in = time.time()
+        print(f"[BENCH]   {mode}: sesiones dentro en {t_all_in - t_start:.0f} s, enviando mensajes...", flush=True)
         simultaneous = sum(1 for r in ready if "error" not in r)
         cpu_gate = sampler._cpu_seconds()  # CPU gastada hasta tener las N sesiones dentro
         gate.set()

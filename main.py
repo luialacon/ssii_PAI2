@@ -53,7 +53,10 @@ def main() -> None:
             run_register_interactive()
         elif opt == "7":
             from benchmarks.load_test import run_300_benchmark
-            run_300_benchmark()
+            raw = input("Rondas (cada una ~1 min; 3 = resultado de la memoria) [1]: ").strip()
+            runs = int(raw) if raw.isdigit() and int(raw) > 0 else 1
+            print(f"[BENCH] {runs} ronda(s) x (plano + TLS) con 300 sesiones. Tarda unos {runs} min; no está colgado.")
+            run_300_benchmark(runs=runs)
         elif opt == "8":
             from src.server.audit import verify_chain
             ok, n = verify_chain()
