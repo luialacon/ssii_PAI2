@@ -38,7 +38,7 @@ MAX_PAGES = 15
 
 GRUPO = "ST-2"
 INTEGRANTES = ["Raimundo García Pérez", "Konstantinos Peridis", "Luis De Alarcón Conradi"]
-REPO = "github.com/luialacon/ssii_PAI2 (rama raimundo_dev)"
+REPO = "github.com/luialacon/ssii_PAI2 (rama main)"
 
 # ----------------------------------------------------------------------------- fuentes
 FONTS = Path("C:/Windows/Fonts")
@@ -291,7 +291,7 @@ def wire_sample(pf):
     plain = []
     for ln in run("-r", str(d / "plain_session.pcapng"), "-q", "-z", "follow,tcp,ascii,0").splitlines():
         if "{" in ln:
-            plain.append(ln[ln.index("{"):][:76])
+            plain.append(ln[ln.index("{"):][:62])
     tls = [x.strip() for x in run("-r", str(d / "tls13_mtls_session.pcapng"), "-Y", "tcp.len>0 && tcp.srcport==18443",
                                   "-T", "fields", "-e", "tcp.payload").splitlines() if x.strip()]
     left = ["SIN cifrar (plain_session.pcapng)"] + plain[:3]
@@ -302,7 +302,7 @@ def wire_sample(pf):
     n = max(len(left), len(right))
     left += [""] * (n - len(left))
     right += [""] * (n - len(right))
-    return "\n".join(a.ljust(78) + b for a, b in zip(left, right))
+    return "\n".join(a.ljust(64) + b for a, b in zip(left, right))
 
 
 def fmt(x, nd=1):
@@ -355,7 +355,7 @@ def build_story():
                     [2.8, 8.0, 6.6]),
               Spacer(1, 4),
               P("<b>Estado:</b> %d pruebas automáticas en verde, %d ataques simulados bloqueados de %d y benchmark de %d sesiones simultáneas con %d/%d éxitos. "
-                "Código: %d líneas en <font name='%s'>src/</font>, %d en pruebas, benchmark y ataques." % (
+                "Código: %d líneas en <font name='%s'>src/</font>, %d en pruebas, benchmark, ataques y herramientas." % (
                     n_tests, sum(a["blocked"] for a in attacks), len(attacks), tls["sessions"], tls["ok"], tls["sessions"],
                     loc("src"), FM, loc("tests", "benchmarks", "attacks", "tools")))]
 
@@ -414,7 +414,7 @@ def build_story():
               P("Todos los comandos se ejecutan desde la raíz del proyecto. Probado en Windows 10 con Python 3.10. La guía completa para desarrolladores es <font name='%s'>GUIA.md</font>." % FM),
               H2("4.1 Requisitos e instalación"),
               code("python --version                       # >= 3.10\npip install -r requirements-dev.txt        # cryptography, argon2-cffi, psutil, matplotlib, pytest, reportlab\n"
-                   "# Opcional: OpenSSL (pruebas con cliente independiente) y Wireshark + Npcap (capturas)"),
+                   "# Opcional: OpenSSL (pruebas con cliente independiente; sin él, 2 pruebas se omiten) y Wireshark + Npcap (capturas)"),
               H2("4.2 Generar la PKI y precargar 300 usuarios (RS1, RF5)"),
               code("python -m src.pki.preload --reset      # ~25 s: CA, certificado de servidor y 300 usuarios con certificado\n"
                    "openssl verify -CAfile certs/ca/ca.crt certs/clients/pdi_user1/pdi_user1.crt   # -> OK"),
@@ -429,7 +429,7 @@ def build_story():
               code("python -m src.server.enroll                 # terminal 1: servicio de alta (:8444)\npython main.py                               # terminal 2: opción 6 (usuario, rol, email, código de alta, contraseña)\n"
                    "python -m src.pki.admin revoke pdi_user1     # anula el carnet; el gateway recarga la CRL solo"),
               H2("4.5 Pruebas, capturas, ataques y benchmark (RS3, RS4)"),
-              code("python -m pytest                                         # %d pruebas, ~7 s (PKI/BD/puerto temporales)\n"
+              code("python -m pytest                                         # %d pruebas, (log: evidences/tests/)\n"
                    "python -m tools.capture_evidence                             # 4 pcaps + análisis con tshark  -> evidences/pcap/\n"
                    "python -m attacks.run_attacks                                # 11 ataques + informe            -> evidences/attacks/\n"
                    "python -m benchmarks.load_test --sessions 300 --runs 3       # ~3 min, TLS frente a plano      -> evidences/bench/\n"
@@ -474,7 +474,8 @@ def build_story():
                   ("HANDSHAKE_FAILED", "Rechazo en el handshake: sin cert., CA ajena, revocado, TLS 1.2…"),
                   ("LOGIN_OK", "Autenticación completa (capa 1 + capa 2)"), ("LOGIN_FAILED", "Contraseña errónea o usuario inexistente"),
                   ("UNAUTHORIZED", "CN ≠ usuario, certificado no vigente o recurso fuera del perfil"),
-                  ("ACCOUNT_LOCKED", "Bloqueo por fuerza bruta"), ("LOGOUT", "Cierre explícito de sesión (RF4)")] if events.get(e)],
+                  ("ACCOUNT_LOCKED", "Bloqueo por fuerza bruta"), ("LOGIN_BLOCKED", "Intento de login sobre una cuenta ya bloqueada"),
+                  ("RESOURCE_OK", "Acceso a un recurso permitido por el perfil"), ("LOGOUT", "Cierre explícito de sesión (RF4)")] if events.get(e)],
                     [3.4, 1.2, 12.8]),
               P("Los eventos prueban lo pedido por RS4: <b>conexión</b> (CONNECT), <b>desconexión</b> (DISCONNECT/LOGOUT) e <b>intentos no autorizados</b> (HANDSHAKE_FAILED, LOGIN_FAILED, UNAUTHORIZED, ACCOUNT_LOCKED).", "small")]
 

@@ -23,7 +23,7 @@ INCLUDE_DIRS = ["src", "benchmarks", "attacks", "tests", "evidences"]
 INCLUDE_FILES = [
     "main.py", "README.md", "GUIA.md", "CHANGELOG.md", "AGENTS.md",
     "requirements.txt", "requirements-dev.txt", "pytest.ini", ".gitignore",
-    "tools/__init__.py", "tools/capture_evidence.py", "tools/build_zip.py",
+    "tools/__init__.py", "tools/capture_evidence.py", "tools/build_zip.py", "tools/generate_memoria_pdf.py",
     "docs/Memoria_PAI2_ST2.pdf",
 ]
 EXCLUDED_DIRS = {"__pycache__", ".pytest_cache", ".venv", ".git", ".claude", ".codebase-memory"}

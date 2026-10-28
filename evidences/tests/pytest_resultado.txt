@@ -1,0 +1,57 @@
+# Resultado de la suite de pruebas (python -m pytest -v)
+# Fecha: 2026-10-27 12:51  |  Python 3.10.11  |  Windows 10
+
+============================= test session starts =============================
+platform win32 -- Python 3.10.11, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\ADMiN\AppData\Local\Programs\Python\Python310\python.exe
+rootdir: C:\Users\ADMiN\US\SSII\PAI_2
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.12.1
+collecting ... collected 37 items
+
+tests/test_auth_session.py::test_login_ok_and_message_roundtrip PASSED   [  2%]
+tests/test_auth_session.py::test_wrong_password_is_rejected_with_generic_message PASSED [  5%]
+tests/test_auth_session.py::test_stolen_certificate_cannot_login_as_someone_else PASSED [  8%]
+tests/test_auth_session.py::test_role_based_resource_access PASSED       [ 10%]
+tests/test_auth_session.py::test_must_login_before_anything_else PASSED  [ 13%]
+tests/test_auth_session.py::test_account_is_locked_after_too_many_failures PASSED [ 16%]
+tests/test_auth_session.py::test_logout_closes_session_and_is_audited PASSED [ 18%]
+tests/test_auth_session.py::test_abrupt_disconnect_is_audited PASSED     [ 21%]
+tests/test_enroll.py::test_registration_issues_certificate_and_user_can_log_in PASSED [ 24%]
+tests/test_enroll.py::test_private_key_never_leaves_the_device PASSED    [ 27%]
+tests/test_enroll.py::test_duplicate_username_is_rejected PASSED         [ 29%]
+tests/test_enroll.py::test_invalid_registrations_are_rejected[kw0-8 caracteres] PASSED [ 32%]
+tests/test_enroll.py::test_invalid_registrations_are_rejected[kw1-C\xf3digo] PASSED [ 35%]
+tests/test_enroll.py::test_invalid_registrations_are_rejected[kw2-Rol] PASSED [ 37%]
+tests/test_enroll.py::test_invalid_registrations_are_rejected[kw3-Usuario] PASSED [ 40%]
+tests/test_enroll.py::test_ca_refuses_csr_with_another_common_name PASSED [ 43%]
+tests/test_store_audit_protocol.py::test_user_identity_cannot_be_modified PASSED [ 45%]
+tests/test_store_audit_protocol.py::test_users_and_certs_cannot_be_deleted PASSED [ 48%]
+tests/test_store_audit_protocol.py::test_public_key_cannot_be_modified_only_revoked PASSED [ 51%]
+tests/test_store_audit_protocol.py::test_duplicate_user_is_rejected PASSED [ 54%]
+tests/test_store_audit_protocol.py::test_certificate_can_be_revoked_only_once PASSED [ 56%]
+tests/test_store_audit_protocol.py::test_audit_chain_is_valid_and_detects_tampering PASSED [ 59%]
+tests/test_store_audit_protocol.py::test_audit_chain_detects_deleted_line PASSED [ 62%]
+tests/test_store_audit_protocol.py::test_real_gateway_audit_log_is_intact PASSED [ 64%]
+tests/test_store_audit_protocol.py::test_framing_roundtrip_with_fragmented_reads PASSED [ 67%]
+tests/test_store_audit_protocol.py::test_oversized_frame_is_rejected_before_reading_body PASSED [ 70%]
+tests/test_store_audit_protocol.py::test_invalid_json_is_rejected PASSED [ 72%]
+tests/test_store_audit_protocol.py::test_server_survives_garbage_after_valid_handshake PASSED [ 75%]
+tests/test_tls_mtls.py::test_handshake_is_tls13_with_allowed_aead_suite PASSED [ 78%]
+tests/test_tls_mtls.py::test_obsolete_tls_versions_are_rejected[TLSVersion.TLSv1_2] PASSED [ 81%]
+tests/test_tls_mtls.py::test_obsolete_tls_versions_are_rejected[TLSVersion.TLSv1_1] PASSED [ 83%]
+tests/test_tls_mtls.py::test_client_without_certificate_is_rejected PASSED [ 86%]
+tests/test_tls_mtls.py::test_certificate_from_foreign_ca_is_rejected PASSED [ 89%]
+tests/test_tls_mtls.py::test_client_rejects_server_with_untrusted_certificate PASSED [ 91%]
+tests/test_tls_mtls.py::test_revoked_certificate_is_rejected PASSED      [ 94%]
+tests/test_tls_mtls.py::test_unauthorised_suite_is_rejected_after_handshake PASSED [ 97%]
+tests/test_tls_mtls.py::test_openssl_client_gets_aes256_when_offered_both PASSED [100%]
+
+============================== warnings summary ===============================
+tests/test_tls_mtls.py::test_obsolete_tls_versions_are_rejected[TLSVersion.TLSv1_1]
+tests/test_tls_mtls.py::test_obsolete_tls_versions_are_rejected[TLSVersion.TLSv1_1]
+  C:\Users\ADMiN\US\SSII\PAI_2\tests\test_tls_mtls.py:57: DeprecationWarning: ssl.TLSVersion.TLSv1_1 is deprecated
+    ctx.minimum_version = ctx.maximum_version = version
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 37 passed, 2 warnings in 8.22s ========================
